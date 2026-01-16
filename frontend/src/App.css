@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(135deg, #020617, #020617);
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+/* FULL SCREEN CONTAINER */
+.container {
+  display: flex;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+/* LEFT FORM */
+.card {
+  padding: 24px;
+  background: #020617;
+}
+
+/* LEFT SIDE WIDTH */
+.card:first-child {
+  width: 60%;
+  border-right: 1px solid #1e293b;
+}
+
+/* RIGHT AI */
+.ai {
+  width: 40%;
+  background: #020617;
+}
+
+/* HEADINGS */
+h2 {
+  margin-bottom: 16px;
+}
+
+/* INPUTS */
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  background: #0f172a;
+  border: 1px solid #1e293b;
+  border-radius: 6px;
+  color: white;
+}
+
+/* DATE + TIME ROW */
+.row {
+  display: flex;
+  gap: 10px;
+}
+
+/* RADIO BUTTONS */
+.radio {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 12px;
+}
+
+/* BUTTON */
+button {
+  width: 100%;
+  padding: 12px;
+  background: #22c55e;
+  color: black;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* RESPONSE TEXT */
+.success {
+  margin-top: 12px;
+  color: #22c55e;
+}
